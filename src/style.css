@@ -4,10 +4,10 @@
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: #35d9f5;
+  background-color: #0ab5e9;
   height: 60px;
   color: #fff;
-  border: 1px solid black;
+  border: 1px solid #0ab5e9;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -51,7 +51,7 @@
 @media (max-width: 1026px) {
   .navbar .anchorLinks__list {
     flex-direction: column;
-    background-color: #35d9f5;
+    background-color: #0ab5e9;
     top: 63px;
     width: 100%;
     padding: 0;
