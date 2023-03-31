@@ -1,0 +1,15 @@
+@import "./mixins";
+@import "./variables.scss";
+@import "./Navbar";
+@import "./Presentation.scss";
+
+body{
+    font-family: 'Raleway', sans-serif;
+    .sectionTitle {
+        font-size: 26px;
+        color: $lightBlueGreen;
+        h2 {
+            font-weight: 400;
+        }
+    }
+}
