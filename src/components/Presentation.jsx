@@ -2,18 +2,18 @@ import React from "react";
 import cv from "../assets/cv.pdf";
 import satrana from "./../assets/satrana.jpg";
 
-const Presentation = () => {
+const About = () => {
     return (
-        <section className="presentation" id="presentationSection">
+        <section className="about" id="aboutSection">
             <div className="sectionTitle">
                 <h2>A propos de moi</h2>
             </div>
             <div className="presentationContainer">
-        <div className="picSection">
-          <img src={satrana} alt="" className="profilePicture" />
+        <div className="pictureSection">
+          <img src={satrana} alt="photographie de profil" className="profilePicture" />
         </div>
         <div className="presentation">
-            <div className="presentationP">
+            <div className="presentationAbout">
                 <p>
                     Hello! Je m'appelle Satrana, je suis développeur junior, je suis localisée en Ile-de-France. 
                     <br /> En 2021, j'ai décidé d'exércer un métier
@@ -41,4 +41,4 @@ const Presentation = () => {
     );
 };
 
-export default Presentation;
+export default About;
