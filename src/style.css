@@ -119,60 +119,60 @@
     opacity: 1;
   }
 }
-.About {
+.about {
   padding-top: 80px;
 }
-.About .presentationContainer {
+.about .presentationContainer {
   padding: 20px 0px;
   display: flex;
 }
 @media (max-width: 1026px) {
-  .About .presentationContainer {
+  .about .presentationContainer {
     flex-direction: column;
   }
 }
-.About .presentationContainer .pictureSection .profilePicture {
+.about .presentationContainer .pictureSection .profilePicture {
   width: 330px;
   padding: 0px 40px;
 }
 @media (max-width: 600px) {
-  .About .presentationContainer .pictureSection .profilePicture {
+  .about .presentationContainer .pictureSection .profilePicture {
     width: 200px;
   }
 }
-.About .presentationContainer .presentation {
+.about .presentationContainer .presentation {
   padding: 0px 20px;
 }
-.About .presentationContainer .presentation .presentationAbout {
+.about .presentationContainer .presentation .presentationAbout {
   text-align: start;
-  color: #a3f8f8;
+  color: #012d65;
   font-weight: 500;
 }
 @media (max-width: 1026px) {
-  .About .presentationContainer .presentation .presentationAbout {
+  .about .presentationContainer .presentation .presentationAbout {
     text-align: center;
   }
 }
 @media (min-width: 601px) and (max-width: 1025px) {
-  .About .presentationContainer .presentation .presentationAbout {
+  .about .presentationContainer .presentation .presentationAbout {
     font-size: 20px;
   }
 }
 @media (max-width: 600px) {
-  .About .presentationContainer .presentation .presentationAbout {
+  .about .presentationContainer .presentation .presentationAbout {
     font-size: 14px;
   }
 }
-.About .presentationContainer .presentation .downloadCVButton {
+.about .presentationContainer .presentation .downloadCVButton {
   display: flex;
   justify-content: center;
 }
-.About .presentationContainer .presentation .downloadCVButton .downloadCVLink {
+.about .presentationContainer .presentation .downloadCVButton .downloadCVLink {
   margin: 14%;
   text-decoration: none;
   font-size: 16px;
   background-color: #a3f8f8;
-  color: #fff;
+  color: #012d65;
   padding: 15px 40px;
   border-style: none;
   border-radius: 15px;
@@ -181,28 +181,28 @@
   cursor: pointer;
 }
 @media (max-width: 1026px) {
-  .About .presentationContainer .presentation .downloadCVButton .downloadCVLink {
+  .about .presentationContainer .presentation .downloadCVButton .downloadCVLink {
     margin: 50px;
   }
 }
-.About .presentationContainer .presentation .downloadCVButton .downloadCVLink:hover {
+.about .presentationContainer .presentation .downloadCVButton .downloadCVLink:hover {
   color: #a3f8f8;
   background-color: #0ab5e9;
   font-weight: 700;
   scale: 1.1;
 }
-.About .mediaIcons {
+.about .mediaIcons {
   display: flex;
   margin: 50px 120px;
 }
-.About .mediaIcons .icons {
+.about .mediaIcons .icons {
   margin-left: 20px;
   color: #a3f8f8;
   font-size: 26px;
   cursor: pointer;
   transition-duration: 150ms;
 }
-.About .mediaIcons .icons:hover {
+.about .mediaIcons .icons:hover {
   scale: 1.3;
 }
 
