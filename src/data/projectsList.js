@@ -51,8 +51,8 @@ export const projectsList = [
         name: 'Sportsee',
         id: 7,
         cover: sportsee,
-        description: "",
-        techno: [reactjs],
+        description: "Développer une application dédiée au coaching sportif qui permettre à l’utilisateur de suivre le nombre de sessions réalisées ainsi que le nombre de calories brûlées",
+        techno: [html , css, js, react],
         link: "https://github.com/SaRvj/SatranaRavelojaona_12_13072021"
     },
     {
