@@ -1,3 +1,17 @@
+import reservia from '../assets/project1.jpg'
+import ohmyfood from '../assets/project2.jpg'
+import gameon from '../assets/project3.jpg'
+import lespetitsplats from '../assets/project4.jpg'
+import billed from '../assets/project5.jpg'
+import kasa from '../assets/project6.png'
+import sportsee from '../assets/project7.jpg'
+
+import html from '../assets/technos/html.png'
+import css from '../assets/technos/css.png'
+import sass from '../assets/technos/sass.png'
+import js from '../assets/technos/js.png'
+import react from '../assets/technos/react.png'
+
 export const projectsList = [
     {
         name: 'Reservia',
